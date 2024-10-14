@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="main w-full min-h-screen bg-zinc-900">
+<div class="form p-10 text-white">
+
+    <!-- /* form * -->
+
+    <form  action="/edit" method="post">
+        <input class="block px-5 py-2 w-1/4 rounded-md  bg-zinc-800 resize=none" type="text" placeholder="previous name" name="previous" value="<%=filename%>">
+        <input class="mt-2 block px-5 py-2 w-1/4 rounded-md  bg-zinc-800 resize=none" type="text" placeholder="new name" name="new">
+        <textarea name="details"class="block px-5 py-2 w-full rounded-md  mt-2 bg-zinc-800 resize-none" placeholder="write your task detail"></textarea>
+        <input class="rounded-md bg-yellow-600 px-5 py-2 mt-2 " type="submit" value="Update Name">
+    </form>
+
+
+<a class="text-blue-500 inline-block mt-10" href="/">GO BACK</a>
+
+                   
+                   
+
+
+</div>
+</div>
+</body>
+</html>
